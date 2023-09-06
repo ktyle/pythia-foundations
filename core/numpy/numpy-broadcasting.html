@@ -137,6 +137,13 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="nav-link nav-internal" href="https://projectpythia.org/index.html#join-us">Community</a>
   </li>
   
+  <li class="nav-item">
+    
+    
+    
+    <a class="nav-link nav-internal" href="https://projectpythia.org/blog.html">Blog</a>
+  </li>
+  
   
 </ul>
       </div>
@@ -198,6 +205,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="../../preamble/how-to-use.html">
    How to Use This Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../preamble/how-to-cite.html">
+   How to Cite This Book
   </a>
  </li>
 </ul>
@@ -549,9 +561,7 @@ const thebe_selector_output = ".output, .cell_output"
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  Theme by <a href="https://projectpythia.org">Project Pythia</a>.<br><br>
-All code in Pythia Foundations is licensed under Apache 2.0. All other non-code content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0 (CC BY 4.0)</a>.<br><br>
-We want your feedback! Fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVa1TC9xM-dk7qIE2e8bsgSrIP82yYDNw3wew3J46eREJa4w/viewform?usp=sf_link">Google Form</a>
+  We want your feedback! Fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVa1TC9xM-dk7qIE2e8bsgSrIP82yYDNw3wew3J46eREJa4w/viewform?usp=sf_link">Google Form</a>
 or see our <a href="https://foundations.projectpythia.org/appendix/how-to-contribute.html">Contributor's Guide</a>.
 
 </div>
@@ -626,7 +636,7 @@ or see our <a href="https://foundations.projectpythia.org/appendix/how-to-contri
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/numpy-broadcasting.ipynb"><button type="button"
+        <a class="binder-button" href="https://binder.projectpythia.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/numpy-broadcasting.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -1324,7 +1334,7 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([21.2, 14.5, 25.6, 18. , 19.3, 24.5, 20.7, 24.5, 25.8, 16.2])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([29.5, 21.2, 17.3, 23. , 26.2, 17.5, 18.6, 24. , 19.3, 17.8])
 </pre></div>
 </div>
 </div>
@@ -1347,8 +1357,8 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([ 0.        , 20.43333333, 19.36666667, 20.96666667, 20.6       ,
-       21.5       , 23.23333333, 23.66666667, 22.16666667,  0.        ])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([ 0.        , 22.66666667, 20.5       , 22.16666667, 22.23333333,
+       20.76666667, 20.03333333, 20.63333333, 20.36666667,  0.        ])
 </pre></div>
 </div>
 </div>
@@ -1362,8 +1372,8 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([20.43333333, 19.36666667, 20.96666667, 20.6       , 21.5       ,
-       23.23333333, 23.66666667, 22.16666667])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([22.66666667, 20.5       , 22.16666667, 22.23333333, 20.76666667,
+       20.03333333, 20.63333333, 20.36666667])
 </pre></div>
 </div>
 </div>
@@ -1376,7 +1386,7 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([21.2, 14.5, 25.6, 18. , 19.3, 24.5, 20.7, 24.5, 25.8, 16.2])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([29.5, 21.2, 17.3, 23. , 26.2, 17.5, 18.6, 24. , 19.3, 17.8])
 </pre></div>
 </div>
 </div>
@@ -1395,14 +1405,14 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[21.2, 14.5, 25.6],
-       [14.5, 25.6, 18. ],
-       [25.6, 18. , 19.3],
-       [18. , 19.3, 24.5],
-       [19.3, 24.5, 20.7],
-       [24.5, 20.7, 24.5],
-       [20.7, 24.5, 25.8],
-       [24.5, 25.8, 16.2]])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[29.5, 21.2, 17.3],
+       [21.2, 17.3, 23. ],
+       [17.3, 23. , 26.2],
+       [23. , 26.2, 17.5],
+       [26.2, 17.5, 18.6],
+       [17.5, 18.6, 24. ],
+       [18.6, 24. , 19.3],
+       [24. , 19.3, 17.8]])
 </pre></div>
 </div>
 </div>
@@ -1415,8 +1425,8 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([20.43333333, 19.36666667, 20.96666667, 20.6       , 21.5       ,
-       23.23333333, 23.66666667, 22.16666667])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([22.66666667, 20.5       , 22.16666667, 22.23333333, 20.76666667,
+       20.03333333, 20.63333333, 20.36666667])
 </pre></div>
 </div>
 </div>
@@ -1430,14 +1440,14 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[  21.2,   14.5, 2000. ],
-       [  14.5, 2000. ,   18. ],
-       [2000. ,   18. ,   19.3],
-       [  18. ,   19.3,   24.5],
-       [  19.3,   24.5,   20.7],
-       [  24.5,   20.7,   24.5],
-       [  20.7,   24.5,   25.8],
-       [  24.5,   25.8,   16.2]])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[  29.5,   21.2, 2000. ],
+       [  21.2, 2000. ,   23. ],
+       [2000. ,   23. ,   26.2],
+       [  23. ,   26.2,   17.5],
+       [  26.2,   17.5,   18.6],
+       [  17.5,   18.6,   24. ],
+       [  18.6,   24. ,   19.3],
+       [  24. ,   19.3,   17.8]])
 </pre></div>
 </div>
 </div>
@@ -1464,13 +1474,13 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[7, 7, 6, ..., 7, 7, 7],
-       [7, 7, 7, ..., 7, 7, 6],
-       [7, 7, 7, ..., 7, 6, 8],
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[7, 7, 7, ..., 7, 7, 6],
+       [7, 6, 7, ..., 7, 6, 6],
+       [7, 6, 7, ..., 6, 7, 7],
        ...,
-       [6, 6, 7, ..., 7, 7, 6],
-       [7, 7, 6, ..., 7, 7, 7],
-       [6, 6, 5, ..., 7, 7, 7]])
+       [6, 7, 7, ..., 7, 6, 7],
+       [7, 6, 6, ..., 7, 7, 7],
+       [7, 6, 6, ..., 6, 6, 7]])
 </pre></div>
 </div>
 </div>
@@ -1495,13 +1505,13 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[737.5, 737.5, 775. , ..., 737.5, 737.5, 737.5],
-       [737.5, 737.5, 737.5, ..., 737.5, 737.5, 775. ],
-       [737.5, 737.5, 737.5, ..., 737.5, 775. , 700. ],
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[737.5, 737.5, 737.5, ..., 737.5, 737.5, 775. ],
+       [737.5, 775. , 737.5, ..., 737.5, 775. , 775. ],
+       [737.5, 775. , 737.5, ..., 775. , 737.5, 737.5],
        ...,
-       [775. , 775. , 737.5, ..., 737.5, 737.5, 775. ],
-       [737.5, 737.5, 775. , ..., 737.5, 737.5, 737.5],
-       [775. , 775. , 812.5, ..., 737.5, 737.5, 737.5]])
+       [775. , 737.5, 737.5, ..., 737.5, 775. , 737.5],
+       [737.5, 775. , 775. , ..., 737.5, 737.5, 737.5],
+       [737.5, 775. , 775. , ..., 775. , 775. , 737.5]])
 </pre></div>
 </div>
 </div>
@@ -1530,19 +1540,19 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-11.37687332, -10.08775997, -10.53120951, ...,  -9.80240301,
-        -10.63426766, -13.76591261],
-       [ -7.27766705, -12.03419365, -10.97640246, ...,  -9.28356374,
-         -9.6991861 , -10.47393185],
-       [ -9.33791786, -10.97702214, -11.12044897, ..., -12.70901133,
-         -7.12902743, -10.78498221],
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-11.76701773, -10.40471511,  -8.57233692, ..., -12.11262072,
+        -10.79940787,  -9.84977273],
+       [-10.85661215,  -8.23311614, -10.9265517 , ..., -11.44023351,
+        -11.23423897, -11.16639625],
+       [-13.61153439,  -8.04936041,  -8.83699839, ...,  -7.33411331,
+         -9.79347447,  -7.79740097],
        ...,
-       [-10.60634236, -10.60737457, -11.20070469, ..., -13.28787168,
-        -10.86949794, -10.76272123],
-       [ -7.78700083, -14.19524254,  -8.26917359, ...,  -8.15980743,
-        -11.12450196, -10.49940609],
-       [ -8.038444  ,  -9.33351559,  -7.32087335, ..., -11.69300233,
-        -12.86421425, -11.90618033]])
+       [-11.67907716, -10.19869243,  -8.45655616, ..., -12.0053438 ,
+         -8.86192972, -12.85145685],
+       [ -8.83116606,  -9.89447651,  -6.17851621, ..., -10.1452791 ,
+         -9.82536378, -10.54041362],
+       [-10.08550743,  -9.67984811,  -5.99353666, ..., -10.9342774 ,
+         -9.7586057 ,  -6.06560808]])
 </pre></div>
 </div>
 </div>
@@ -1586,19 +1596,19 @@ f_i - f_{i+1} - f_{i-1}
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-11.37687332, -10.08775997, -10.53120951, ...,  -9.80240301,
-        -10.63426766, -13.76591261],
-       [ -7.27766705, -12.03419365, -10.97640246, ...,  -9.28356374,
-         -9.6991861 , -10.47393185],
-       [ -9.33791786, -10.97702214, -11.12044897, ..., -12.70901133,
-         -7.12902743, -10.78498221],
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-11.76701773, -10.40471511,  -8.57233692, ..., -12.11262072,
+        -10.79940787,  -9.84977273],
+       [-10.85661215,  -8.23311614, -10.9265517 , ..., -11.44023351,
+        -11.23423897, -11.16639625],
+       [-13.61153439,  -8.04936041,  -8.83699839, ...,  -7.33411331,
+         -9.79347447,  -7.79740097],
        ...,
-       [-10.60634236, -10.60737457, -11.20070469, ..., -13.28787168,
-        -10.86949794, -10.76272123],
-       [ -7.78700083, -14.19524254,  -8.26917359, ...,  -8.15980743,
-        -11.12450196, -10.49940609],
-       [ -8.038444  ,  -9.33351559,  -7.32087335, ..., -11.69300233,
-        -12.86421425, -11.90618033]])
+       [-11.67907716, -10.19869243,  -8.45655616, ..., -12.0053438 ,
+         -8.86192972, -12.85145685],
+       [ -8.83116606,  -9.89447651,  -6.17851621, ..., -10.1452791 ,
+         -9.82536378, -10.54041362],
+       [-10.08550743,  -9.67984811,  -5.99353666, ..., -10.9342774 ,
+         -9.7586057 ,  -6.06560808]])
 </pre></div>
 </div>
 </div>
@@ -1705,7 +1715,8 @@ f_i - f_{i+1} - f_{i-1}
     </div>
   
     <div class="footer-item">
-    <div class="container-fluid footer-menu pt-4">
+    
+<div class="container-fluid footer-menu pt-4">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-9 col-sm-4 col-md-4 col-lg-3 footer-menu-col">
@@ -1727,6 +1738,11 @@ f_i - f_{i+1} - f_{i-1}
               >The Project Team</a
             >
           </li>
+          <li>
+            <a href="https://projectpythia.org/#how-to-cite"
+              >How to Cite</a
+            >
+          </li>
         </ul>
       </div>
       <div class="col-9 col-sm-4 col-md-4 col-lg-3 footer-menu-col">
@@ -1736,15 +1752,8 @@ f_i - f_{i+1} - f_{i-1}
             <a href="mailto:projectpythia@ucar.edu">Email us!</a>
           </li>
           <li>
-            <a
-              href="https://github.com/ProjectPythia/projectpythia.github.io/discussions"
-              >Project Pythia Discussions</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/ProjectPythia/pythia-foundations/discussions"
-              >Pythia Foundations Discussions</a
+            <a href="https://discourse.pangeo.io/c/education/project-pythia/60s"
+              >Pangeo Discourse</a
             >
           </li>
         </ul>
@@ -1755,12 +1764,6 @@ f_i - f_{i+1} - f_{i-1}
           <li>
             <a href="https://projectpythia.org/contributing.html"
               >How to contribute to Project Pythia</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://foundations.projectpythia.org/appendix/how-to-contribute.html"
-              >How to contribute to Pythia Foundations</a
             >
           </li>
           <li>
@@ -1794,7 +1797,7 @@ f_i - f_{i+1} - f_{i-1}
         
           By the <a href="https://projectpythia.org/">Project Pythia</a> Community.
         
-          Last updated on 5 June 2023.
+          Last updated on 6 September 2023.
         </p>
       </div>
     </div>
@@ -1804,6 +1807,15 @@ f_i - f_{i+1} - f_{i-1}
     <div class="footer-item">
     <div class="container-fluid footer-extra">
   <div class="container">
+    <center>
+      Theme by <a href="https://projectpythia.org">Project Pythia</a>. All code
+      in Pythia Foundations is licensed under Apache 2.0. All other non-code
+      content is licensed under
+      <a href="https://creativecommons.org/licenses/by/4.0/">
+        Creative Commons BY 4.0 (CC BY 4.0)</a
+      >.
+    </center>
+    <br /><br />
     <div class="row">
       <p class="m-0">
         <img
